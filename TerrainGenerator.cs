@@ -10,7 +10,7 @@ public class TerrainGenerator : MeshGenerator
     public float strength;
     public float decay;
 
-    public int initialSplits;
+    public int initialSplits;       // Number of splits before decay takes place
 
     private void Awake()
     {
